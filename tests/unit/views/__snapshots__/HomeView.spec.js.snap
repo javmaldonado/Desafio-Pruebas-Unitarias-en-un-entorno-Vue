@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests de vista Contact Test1 - Snapshot de la vista Contact  se crea correctamente 1`] = `
+<div class="home">
+  <h1>This is an Home page</h1>
+</div>
+`;

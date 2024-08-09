@@ -1,29 +1,12 @@
-# desafio-final
+## Desafío - Pruebas Unitarias en un entorno Vue
 
-## Project setup
-```
-npm install
-```
+El código realiza pruebas unitarias para verificar la existencia de los componentes AboutView y ContactView en sus respectivas rutas. Para ello:
+ 1. Crea un enrutador con las rutas necesarias. 
+ 2. Navega a la ruta correspondiente
+ 3. Monta el componente.
+ 4. Verifica que el componente exista.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Ademas, realiza pruebas para crear snapshot de la estructura de los componentes HomeView y About.Para ello:
+1. Realiza renders del componente.
+2. Genera un snapshot, captura del Html renderizado.
+3. Realiza la comparacion si hay match, la prueba pasa.
